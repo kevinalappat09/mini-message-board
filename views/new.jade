@@ -1,0 +1,11 @@
+p Add a  new message
+  form(method="POST", action="/new")
+      label(for="input1") Username:
+      input(type="text", id="input1", name="author", required)
+      br
+      br
+      label(for="input2") Message:
+      input(type="text", id="input2", name="message", required)
+      br
+      br
+      button(type="submit") Submit
